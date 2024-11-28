@@ -37,7 +37,7 @@ public class MyString {
         for (int i = 0; i < str1.length(); i++) {
             if (str1.charAt(i) == str2.charAt(0)) { // if the first letter of str2 is in str1
                 int j = 0;
-                while (j < str2.length() && i+j < str1.length() && str1.charAt(i+j) == str2.charAt(j)) { // checks if the rest of the letters are the same
+                while (j < str2.length()  && str1.charAt(i+j) == str2.charAt(j)) { // checks if the rest of the letters are the same
                     j++;
                 }
                 if (j == str2.length()) { // if all the letters are the same
