@@ -23,6 +23,6 @@ public class Primes {
                 primecounter++;
             }
         }
-        System.out.println("There are " + primecounter + " primes between " + 2 + " and " + (num + 1) + " (" + (primecounter * 100 / num) + "% " + "are primes)");
+        System.out.println("There are " + primecounter + " primes between " + 2 + " and " + (num) + " (" + (primecounter * 100 / num) + "% " + "are primes)");
     }
 }
